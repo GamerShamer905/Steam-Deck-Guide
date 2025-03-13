@@ -2,3 +2,68 @@ html {
   height: 100%;
   width: 100%;
 }
+
+
+
+/* Add a black background color to the top navigation */
+.topnav {
+  background-color: #d45547;
+  overflow: hidden;
+  border: solid;
+  border-color: #be4c3f;
+  border-radius: 10px;
+}
+
+a {
+  text-decoration:none;
+  color: #7f9ad9;
+}
+/* Style the links inside the navigation bar */
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  margin: 0;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+/* Add a color to the active/current link */
+.topnav a.active {
+  background-color: #7f9ad9;
+  color: white;
+}
+
+.image-container {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
+.image-container img {
+  width: auto;
+  /* Allows images to keep their natural width */
+  max-width: 45%;
+  /* Ensures they don’t overflow */
+  height: auto;
+  /* Maintains aspect ratio */
+  object-fit: contain;
+  /* Prevents squishing */
+}
+
+table, th, td {
+  border-color: black;
+  border: 1px solid;
+  padding: 5px;
+  text-align: center;
+}
+table {
+  border-collapse: collapse;
+  }
