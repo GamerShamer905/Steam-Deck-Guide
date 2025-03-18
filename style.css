@@ -50,7 +50,7 @@ a {
 .image-container img {
   width: auto;
   /* Allows images to keep their natural width */
-  max-width: 45%;
+  max-width: 100%;
   /* Ensures they don’t overflow */
   height: auto;
   /* Maintains aspect ratio */
