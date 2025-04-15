@@ -189,6 +189,8 @@ body {
   background-color: inherit;
   font-family: inherit;
   margin: 0;
+}
+.dropdown .activer {
   background-color: #7f9ad9;
 }
 
