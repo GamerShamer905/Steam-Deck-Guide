@@ -17,7 +17,7 @@ a {
   float: left;
   color: #f2f2f2;
   text-align: center;
-  padding: 14px 16px;
+  padding: 18px 16px;
   text-decoration: none;
   font-size: 17px;
   margin: 0;
@@ -185,10 +185,11 @@ body {
   border: none;
   outline: none;
   color: white;
-  padding: 14px 16px;
+  padding: 18px 16px;
   background-color: inherit;
   font-family: inherit;
   margin: 0;
+  background-color: #7f9ad9;
 }
 
 .navbar a:hover, .dropdown:hover .dropbtn {
@@ -208,7 +209,7 @@ body {
 .dropdown-content a {
   float: none;
   color: black;
-  padding: 12px 16px;
+  padding: 16px 16px;
   text-decoration: none;
   display: block;
   text-align: left;
@@ -220,8 +221,4 @@ body {
 
 .dropdown:hover .dropdown-content {
   display: block;
-}
-.igiveupuwin {
-  background-color: #7f9ad9;
-  color: white;
 }
