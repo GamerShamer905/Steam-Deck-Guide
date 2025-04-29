@@ -246,13 +246,40 @@ body {
   display: block;
 }
 
-.stepright {
-  display: flex;
-  text-align: left;
-  float: left;
+/* Table Layout */
+.accessories-table {
+  width: 100%;
+  margin: 20px 0;
 }
-.stepleft {
-  display: flex;
+
+.accessories-table td {
+  padding: 10px;
   text-align: left;
-  float: right;
+  vertical-align: middle; /* Aligns content vertically */
+}
+
+/* Styling for icon and title inline */
+.accessories-table td .icon-title {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.accessories-table td i {
+  font-size: 40px; /* Icon size */
+  color: #d45547;
+}
+
+.accessories-table td .description {
+  font-size: 16px;
+  color: #333;
+}
+
+.accessories-table td a {
+  color: #7f9ad9;
+  text-decoration: none;
+}
+
+.accessories-table td a:hover {
+  color: #d45547;
 }
