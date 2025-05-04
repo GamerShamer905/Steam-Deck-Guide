@@ -256,6 +256,7 @@ body {
   padding: 10px;
   text-align: left;
   vertical-align: middle; /* Aligns content vertically */
+  font-size: 50px;
 }
 
 /* Styling for icon and title inline */
@@ -282,4 +283,8 @@ body {
 
 .accessories-table td a:hover {
   color: #d45547;
+}
+
+.description {
+  font-size: 30px;
 }
