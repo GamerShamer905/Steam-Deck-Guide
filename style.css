@@ -1,16 +1,19 @@
+/* removes left and right margin so the nav bar stretches across the whole page */
 body {
   margin-right: 0;
   margin-left: 0;
 }
+/* makes all p tags have some margin */
 p {
   margin-left: 8px;
   margin-right: 8px;
 }
+/* makes all h1 tags have some margin */
 h1 {
   margin-left: 8px;
   margin-right: 8px;
 }
-
+/* makes all images have some margin */
 img {
   margin-left: 8px;
   margin-right: 8px;
@@ -21,6 +24,7 @@ img {
   background-color: #d45547;
   border-radius: 5px;
 }
+/* changes the background color of the top nav bar  */
 .topnav {
   background-color: #d45547;
   overflow: hidden;
@@ -28,7 +32,7 @@ img {
   border-color: #be4c3f;
   padding: 0px;
 }
-
+/* styles all links in this format */
 a {
   text-decoration:none;
   color: #7f9ad9;
@@ -72,135 +76,29 @@ a {
   object-fit: contain;
   /* Prevents squishing */
 }
-
+/* makes border black, with a one pixel border, 5px padding, and centers the text in all table */
 table, th, td {
   border-color: black;
   border: 1px solid;
   padding: 5px;
   text-align: center;
 }
+/* forces borders to be one line, and not multiple */
 table {
   border-collapse: collapse;
   }
-.tomorrow-thin {
-  font-family: "Tomorrow", sans-serif;
-  font-weight: 100;
-  font-style: normal;
-}
-
-.tomorrow-extralight {
-  font-family: "Tomorrow", sans-serif;
-  font-weight: 200;
-  font-style: normal;
-}
-
-.tomorrow-light {
-  font-family: "Tomorrow", sans-serif;
-  font-weight: 300;
-  font-style: normal;
-}
-
-.tomorrow-regular {
-  font-family: "Tomorrow", sans-serif;
-  font-weight: 400;
-  font-style: normal;
-}
-
-.tomorrow-medium {
-  font-family: "Tomorrow", sans-serif;
-  font-weight: 500;
-  font-style: normal;
-}
-
-.tomorrow-semibold {
-  font-family: "Tomorrow", sans-serif;
-  font-weight: 600;
-  font-style: normal;
-}
-
-.tomorrow-bold {
-  font-family: "Tomorrow", sans-serif;
-  font-weight: 700;
-  font-style: normal;
-}
-
-.tomorrow-extrabold {
-  font-family: "Tomorrow", sans-serif;
-  font-weight: 800;
-  font-style: normal;
-}
-
-.tomorrow-black {
-  font-family: "Tomorrow", sans-serif;
-  font-weight: 900;
-  font-style: normal;
-}
-
-.tomorrow-thin-italic {
-  font-family: "Tomorrow", sans-serif;
-  font-weight: 100;
-  font-style: italic;
-}
-
-.tomorrow-extralight-italic {
-  font-family: "Tomorrow", sans-serif;
-  font-weight: 200;
-  font-style: italic;
-}
-
-.tomorrow-light-italic {
-  font-family: "Tomorrow", sans-serif;
-  font-weight: 300;
-  font-style: italic;
-}
-
-.tomorrow-regular-italic {
-  font-family: "Tomorrow", sans-serif;
-  font-weight: 400;
-  font-style: italic;
-}
-
-.tomorrow-medium-italic {
-  font-family: "Tomorrow", sans-serif;
-  font-weight: 500;
-  font-style: italic;
-}
-
-.tomorrow-semibold-italic {
-  font-family: "Tomorrow", sans-serif;
-  font-weight: 600;
-  font-style: italic;
-}
-
-.tomorrow-bold-italic {
-  font-family: "Tomorrow", sans-serif;
-  font-weight: 700;
-  font-style: italic;
-}
-
-.tomorrow-extrabold-italic {
-  font-family: "Tomorrow", sans-serif;
-  font-weight: 800;
-  font-style: italic;
-}
-
-.tomorrow-black-italic {
-  font-family: "Tomorrow", sans-serif;
-  font-weight: 900;
-  font-style: italic;
-}
-
-
+/* makes everything tommorow font with 400 font weight, and no special styles */
 body {
   font-family: "Tomorrow", sans-serif;
   font-weight: 400;
   font-style: normal;
 }
+/* makes the dropdown used in the nav bar be on the left and makes it so that any extra stuff is hidden using overflow */
 .dropdown {
   float: left;
   overflow: hidden;
 }
-
+/* this is used for the dropdown button, making it the right size, color with no border/outline and enough padding to look good, also it inherits the surrounding bgcolor and font-family */
 .dropdown .dropbtn {
   font-size: 16px;  
   border: none;
@@ -211,15 +109,16 @@ body {
   font-family: inherit;
   margin: 0;
 }
+/* this is used as the way the drop down menu shows that it is active */
 .dropdown .activer {
   background-color: #7f9ad9;
 }
-
+/* this is for the color of the dropdown button when being hovered over */
 .navbar a:hover, .dropdown:hover .dropbtn {
   background-color: #ddd;
   color: black;
 }
-
+/* this is for what shows in the dropdown */
 .dropdown-content {
   display: none;
   position: absolute;
@@ -228,7 +127,7 @@ body {
   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
   z-index: 1;
 }
-
+/* this is how all links in the dropdown content area are styled */
 .dropdown-content a {
   float: none;
   color: black;
@@ -237,11 +136,11 @@ body {
   display: block;
   text-align: left;
 }
-
+/* this makes the dropdown content a specific color when being hovered over */
 .dropdown-content a:hover {
   background-color: #ddd;
 }
-
+/* this makes the content show when being hovered */
 .dropdown:hover .dropdown-content {
   display: block;
 }
@@ -270,21 +169,21 @@ body {
   font-size: 40px; /* Icon size */
   color: #d45547;
 }
-
+/* styles the table used in accessories description */
 .accessories-table td .description {
   font-size: 16px;
   color: #333;
 }
-
+/* styles the links in the accessories table */
 .accessories-table td a {
   color: #7f9ad9;
   text-decoration: none;
 }
-
+/* styles what happens when the links in the accessories table is hovered over */
 .accessories-table td a:hover {
   color: #d45547;
 }
-
+/* makes any tag with the class description text size 30px, used mainly in the accessories table in accessories.html */
 .description {
   font-size: 30px;
 }
