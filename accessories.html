@@ -13,6 +13,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   </head>
   <body>
+    <!-- navbar -->
     <div class="topnav">
       <a href="index.html">Home</a>
       <div class="dropdown">
@@ -25,62 +26,65 @@
       <a class="active" href="accessories.html">Accessories</a>
       <a href="references.html">References</a>
     </div>
+    <!-- table used to display accessories, same code used for each row, just different body text, anything i say for this first row, can be assumed to repeat throughout -->
     <h1>Accessories</h1>
-    <table class="accessories-table" style="width: 100%; margin: 20px 0; border-collapse: collapse; border: none;">
-      <tr style="border: 0;">
-        <td style="border: 0;" style="padding: 10px; vertical-align: top;">
-          <div class="icon-title" style="display: flex; align-items: center; gap: 10px;">
-            <i class="fa fa-shield" style="font-size: 40px; color: #d45547;"></i>
+    <table class="accessories-table" style="width: 100%; margin: 20px 0; border-collapse: collapse; border: none;"> <!-- removed border and added margin, because this table is just so that the title, icons and description are inline as i do not know how to use flex-->
+      <tr style="border: 0;"> <!-- removed border again, you can use both 0 and none to remove border -->
+        <td style="border: 0; padding: 10px; vertical-align: top;"> <!-- removed border, adding padding so there is better spacing between elements, and aligned this row with the top -->
+          <div class="icon-title" style="display: flex; align-items: center; gap: 10px;"> <!-- div used to make icon and title inline, so in the actual output it looks much nicer -->
+            <i class="fa fa-shield" style="font-size: 40px; color: #d45547;"></i> <!-- icon imported with font-awesome -->
             <div class="title">Case</div>
           </div>
         </td style="border: 0;">
-        <td style="border: 0;" style="padding: 10px; vertical-align: top;">
+        <td style="border: 0; padding: 10px; vertical-align: top;">
           <div class="description" style="font-size: 20px; color: #333;">
-            A case is almost required to protect your Steam Deck. I recommend looking through <a href="https://gamerant.com/best-steam-deck-cases/" style="color: #7f9ad9; text-decoration: none;">this</a> list, but would personally recommend the DBrand Killswitch, if they ship to you</a>.
+            A case is almost required to protect your Steam Deck. I recommend looking through <a href="https://gamerant.com/best-steam-deck-cases/" style="color: #7f9ad9; text-decoration: none;">this</a> list, but would personally recommend the DBrand Killswitch, if they ship to you. <!-- link used here to give users a wider space to investiage their problem -->
           </div>
         </td style="border: 0;">
       </tr style="border: 0;">
       <tr style="border: 0;">
-        <td style="border: 0;" style="padding: 10px; vertical-align: top;">
+        <td style="border: 0; padding: 10px; vertical-align: top;">
           <div class="icon-title" style="display: flex; align-items: center; gap: 10px;">
             <i class="fa fa-thumbs-up" style="font-size: 40px; color: #d45547;"></i>
             <div class="title">Thumb Grips</div>
           </div>
         </td style="border: 0;">
-        <td style="border: 0;" style="padding: 10px; vertical-align: top;">
+        <td style="border: 0; padding: 10px; vertical-align: top;">
           <div class="description" style="font-size: 20px; color: #333;">
             Thumb Grips are great for more intense gameplay, most people would tell you a specific brand, but for this one, any one on Amazon will do, if you want a specifc one if you cannot make up your mind, always go for DBrand or Skull&Co
           </div>
         </td style="border: 0;">
       </tr style="border: 0;">
       <tr style="border: 0;">
-        <td style="border: 0;" style="padding: 10px; vertical-align: top;">
-          <div class="icon-title" style="display: flex; align-items: center; gap: 10px;">
+        <td style="border: 0; padding: 10px; vertical-align: top;">
+          <div class="icon-title display: flex; align-items: center; gap: 10px;">
             <i class="fa fa-hdd-o" style="font-size: 40px; color: #d45547;"></i>
             <div class="title">SD Card</div>
           </div>
         </td style="border: 0;">
-        <td style="border: 0;" style="padding: 10px; vertical-align: top;">
+        <td style="border: 0; padding: 10px; vertical-align: top;">
           <div class="description" style=" font-size: 20px; color: #333;">
             A fast SD card is essential, unless you want slow boot times for games. I recommend Sandisk Extreme or Samsung Pro/Evo. For more options, check <a href="https://www.pcgamesn.com/best-microsd-card-for-steam-deck" style="color: #7f9ad9; text-decoration: none;">this list</a>.
           </div>
         </td style="border: 0;">
       </tr style="border: 0;">
       <tr style="border: 0;">
-        <td style="border: 0;" style="padding: 10px; vertical-align: top;">
+        <td style="border: 0; padding: 10px; vertical-align: top;">
           <div class="icon-title" style="display: flex; align-items: center; gap: 10px;">
             <i class="fa fa-battery-full" style="font-size: 40px; color: #d45547;"></i>
             <div class="title">Powerbank</div>
           </div>
         </td style="border: 0;">
-        <td style="border: 0;" style="padding: 10px; vertical-align: top;">
+        <td style="border: 0; padding: 10px; vertical-align: top;">
           <div class="description" style="font-size: 20px; color: #333;">
             A powerbank is great for extended gaming sessions. Any powerbank over 20000 mAh and with a 100W output should work fine. For suggestions, visit <a href="https://www.windowscentral.com/gaming/best-steam-deck-power-bank-year">here</a>.
           </div>
-        </td style="border: 0;">
-      </tr style="border: 0;">
-    </td style="border: 0;">
-  </tr style="border: 0;">
+        </td>
+      </tr>
+    </td>
+  </tr>
+
+
   <tr style="border: 0;">
     <td style="border: 0;" style="padding: 10px; vertical-align: top;">
       <div class="icon-title" style="display: flex; align-items: center; gap: 10px;">
